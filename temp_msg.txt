@@ -1,1 +1,1 @@
-feat: wire Stellar eco action client
+feat: build sustainability tracker UI
