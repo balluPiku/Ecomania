@@ -1,1 +1,1 @@
-chore: initialize Ecomania workspace
+feat: add Ecomania Soroban contract
