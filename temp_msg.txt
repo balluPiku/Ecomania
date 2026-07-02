@@ -1,1 +1,1 @@
-feat: scaffold Ecomania frontend
+feat: wire Stellar eco action client
