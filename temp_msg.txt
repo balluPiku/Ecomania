@@ -1,1 +1,1 @@
-test: cover eco action contract flows
+feat: scaffold Ecomania frontend
