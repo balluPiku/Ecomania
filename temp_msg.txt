@@ -1,1 +1,1 @@
-chore: add Stellar deployment scripts
+ci: add production workflow
