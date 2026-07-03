@@ -1,1 +1,1 @@
-docs: refresh testnet contract deployment
+docs: add submission checklist
