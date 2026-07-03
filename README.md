@@ -4,7 +4,8 @@
 
 Ecomania is a Stellar Soroban mini-dApp for on-chain sustainability action tracking. Users connect a Freighter wallet, create a public eco profile, set a weekly eco-action goal, log planet-positive actions, build a climate-positive streak across days, and browse a live public activity feed sourced from recent Soroban contract events.
 
-Live app: `https://ecomania-five.vercel.app`
+Live app: `https://ecomani
+a-five.vercel.app`
 
 ## Overview
 
@@ -33,37 +34,6 @@ Ecomania keeps the original full-stack Soroban + React architecture and converts
 - Contract deployment transaction hash: `4d47c7f0ecdd2c0f0ce379c2386690acfc2f945b18a0c1f1ccda0b1dce19c754`
 - Inter-contract calls: not used; Ecomania is a single Soroban contract.
 - Token or pool address: not applicable; no custom token or liquidity pool was deployed.
-
- ## CI/CD
-
-Workflow file: [.github/workflows/ci-cd.yml](./.github/workflows/ci-cd.yml)
-
-Live workflow runs: [GitHub Actions for Ecomania](https://github.com/georgiandeep25-prog/Ecomania/actions/workflows/ci-cd.yml)
-
-## Demo Video
-
-Watch the Ecomania demo video:
-
-https://drive.google.com/file/d/1fyh44vwBPg8KkTM3u7AbpuhR0Jc8XqEj/view?usp=sharing
-
-
- ## Screenshots
-
-### Desktop Impact Console
-
-![Ecomania desktop impact console](./UI%20SS.png)
-
-### Mobile Responsive View
-
-![Ecomania mobile responsive view](./mobile%20SS.png)
-
-### GitHub Actions CI/CD
-
-![Ecomania CI/CD workflow screenshot](./ci%20cd%20ss.png)
-
-### Contract Test Verification
-
-![Ecomania contract test verification](./test.png)
 
 ## Architecture
 
@@ -256,6 +226,11 @@ npx --yes vercel@latest build --prod --token=$VERCEL_TOKEN
 npx --yes vercel@latest deploy --prebuilt --prod --token=$VERCEL_TOKEN
 ```
 
+## CI/CD
+
+Workflow file: [.github/workflows/ci-cd.yml](./.github/workflows/ci-cd.yml)
+
+Live workflow runs: [GitHub Actions for Ecomania](https://github.com/georgiandeep25-prog/Ecomania/actions/workflows/ci-cd.yml)
 
 The `CI/CD` workflow runs on:
 
@@ -295,6 +270,29 @@ After a successful main-branch workflow run, GitHub should show the repository s
 7. Confirm the dashboard updates, the recent action list refreshes, and the public event feed shows the new contract event.
 8. Use the transaction link to inspect the write on Stellar Expert.
 
+## Demo Video
+
+Watch the Ecomania demo video:
+
+https://drive.google.com/file/d/1fyh44vwBPg8KkTM3u7AbpuhR0Jc8XqEj/view?usp=sharing
+
+## Screenshots
+
+### Desktop Impact Console
+
+![Ecomania desktop impact console](./UI%20SS.png)
+
+### Mobile Responsive View
+
+![Ecomania mobile responsive view](./mobile%20SS.png)
+
+### GitHub Actions CI/CD
+
+![Ecomania CI/CD workflow screenshot](./ci%20cd%20ss.png)
+
+### Contract Test Verification
+
+![Ecomania contract test verification](./test.png)
 
 ## Verification Checklist
 
