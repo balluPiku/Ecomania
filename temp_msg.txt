@@ -1,1 +1,1 @@
-docs: add submission checklist
+docs: add demo video to showcase features
