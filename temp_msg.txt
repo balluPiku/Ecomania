@@ -1,1 +1,1 @@
-style: add premium eco visual system
+chore: add Stellar deployment scripts
