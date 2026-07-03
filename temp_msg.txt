@@ -1,1 +1,1 @@
-docs: document Ecomania launch
+feat: redesign Ecomania impact console
