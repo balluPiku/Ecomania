@@ -1,1 +1,1 @@
-docs: add demo video and screenshots
+docs: refresh testnet contract deployment
