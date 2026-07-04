@@ -1,1 +1,1 @@
-Update README.md
+docs: fix live app URL in README and update test image
