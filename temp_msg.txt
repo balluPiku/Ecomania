@@ -1,1 +1,1 @@
-feat: implement cross-contract communication in eco_reward
+test: setup vitest for frontend testing
