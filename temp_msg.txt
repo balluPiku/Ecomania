@@ -1,1 +1,1 @@
-test: setup vitest for frontend testing
+test: add App component unit tests
