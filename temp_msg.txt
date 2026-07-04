@@ -1,1 +1,1 @@
-feat: scaffold eco_reward contract
+feat: implement cross-contract communication in eco_reward
