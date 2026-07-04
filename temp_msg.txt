@@ -1,1 +1,1 @@
-docs: fix live app URL in README and update test image
+Merge branch 'main' of https://github.com/georgiandeep25-prog/Ecomania
