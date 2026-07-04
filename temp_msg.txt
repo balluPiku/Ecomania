@@ -1,1 +1,1 @@
-style: apply Obsidian Echo design system to global css
+feat: implement interactive sidebar navigation and dashboard grid
