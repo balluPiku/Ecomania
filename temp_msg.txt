@@ -1,1 +1,1 @@
-fix: remove unused import to pass ESLint in CI
+chore: swap Vercel deploy script for Netlify deploy script
