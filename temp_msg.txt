@@ -1,1 +1,1 @@
-docs: update documentation for new architecture and UI
+chore: add netlify.toml for deployment readiness
