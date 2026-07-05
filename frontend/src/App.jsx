@@ -375,6 +375,10 @@ export default function App() {
         ...nextState,
         isConnecting: false
       });
+      import("posthog-js").then(({ default: posthog }) => {
+        posthog.identify(nextState.address || nextState.account);
+        posthog.capture("wallet_connected", { account: nextState.address || nextState.account });
+      }).catch(() => {});
     } catch (error) {
       setWallet((current) => ({
         ...current,
@@ -408,6 +412,10 @@ export default function App() {
       return;
     }
 
+    import("posthog-js").then(({ default: posthog }) => {
+      posthog.capture("profile_saved_initiated", { displayName, weeklyGoalActions });
+    }).catch(() => {});
+
     saveProfileMutation.mutate({
       displayName,
       weeklyGoalActions
@@ -426,6 +434,10 @@ export default function App() {
       });
       return;
     }
+
+    import("posthog-js").then(({ default: posthog }) => {
+      posthog.capture("goal_updated_initiated", { weeklyGoalActions });
+    }).catch(() => {});
 
     updateGoalMutation.mutate({
       weeklyGoalActions
@@ -455,6 +467,10 @@ export default function App() {
       });
       return;
     }
+
+    import("posthog-js").then(({ default: posthog }) => {
+      posthog.capture("eco_action_logged_initiated", { actionType, actionQuantity });
+    }).catch(() => {});
 
     logActionMutation.mutate({
       actionType,
