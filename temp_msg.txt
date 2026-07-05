@@ -1,1 +1,1 @@
-chore: swap Vercel deploy script for Netlify deploy script
+docs: finalize comprehensive README for submission
