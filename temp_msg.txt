@@ -1,1 +1,1 @@
-docs: add project screenshots and fix paths
+feat(telemetry): integrate sentry, posthog, and update survey feedback forms

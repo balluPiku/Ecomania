@@ -320,6 +320,6 @@ npm run dev
 
 ## Author
 
-**Praveen Garakoti** — [@praveengarakot](https://github.com/praveengarakot)
+**Priyanka Balmiki** — [@npmPiku](https://github.com/npmPiku)
 
 *Built for the RiseIn Stellar dApp Development Program — Level 4*
