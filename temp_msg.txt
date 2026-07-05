@@ -1,1 +1,1 @@
-chore: add netlify.toml for deployment readiness
+fix: remove unused import to pass ESLint in CI
