@@ -1,1 +1,1 @@
-feat: implement interactive sidebar navigation and dashboard grid
+docs: update documentation for new architecture and UI
