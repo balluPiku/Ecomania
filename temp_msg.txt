@@ -1,1 +1,1 @@
-feat(telemetry): integrate sentry, posthog, and update survey feedback forms
+docs: correct author details to Priyanka Balmiki

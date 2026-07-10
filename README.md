@@ -69,6 +69,7 @@ Ecomania leverages the specific performance features of Stellar to ensure fricti
 |----------|------|
 | **Live dApp** | [ecomania-stellar.netlify.app](https://ecomania-stellar.netlify.app/) |
 | **Demo Video** | [Google Drive — Walkthrough Recording](https://drive.google.com/file/d/1dw02W3CYBdwinFnDw_akNsxogWA9Rhpb/view?usp=sharing) |
+| **Pitch Deck / PPT** | [Google Drive — Presentation](https://drive.google.com/file/d/1FMNFB31QNM97Mooi18i8DbcesmzMgpkw/view?usp=sharing) |
 | **GitHub Repo** | [npmPiku/Ecomania](https://github.com/npmPiku/Ecomania) |
 | **User Feedback Form** | [Ecomania Usability Survey — Google Forms](https://forms.gle/pHLXcMchAnkkSvTp8) |
 | **Onboarded Users & Wallet Interactions** | [Responses Tracker — Google Sheets](https://docs.google.com/spreadsheets/d/19s8gVCqncAzV8rcIwnVstIrMQqYzoFJ5i2p4W_nkFHM/edit?resourcekey=&gid=5844705#gid=5844705) |
@@ -112,6 +113,13 @@ As part of the Level 4 production MVP validation, we onboarded users to run the 
 |----------|------|
 | **Feedback Form** | [Submit Feedback](https://forms.gle/pHLXcMchAnkkSvTp8) |
 | **User Responses & Wallet Proof** | [View Spreadsheet](https://docs.google.com/spreadsheets/d/19s8gVCqncAzV8rcIwnVstIrMQqYzoFJ5i2p4W_nkFHM/edit?resourcekey=&gid=5844705#gid=5844705) |
+
+### 📈 Level 5 User Growth & Iterations
+Based on the feedback collected from over 50+ onboarded testnet users, we implemented the following UX and product improvements:
+- **UI Enhancements:** Improved progress visualization and streamlined the onboarding flow based on survey responses.
+- **Bug Fixes:** Addressed edge cases with goal setting and transaction submissions.
+- **Growth Tracking:** Maintained active tracking of real transactions and wallet interactions on the testnet.
+*(See our recent Git commits for the exact code iterations made based on this feedback).*
 
 ---
 
@@ -312,9 +320,11 @@ npm run dev
 - Telemetry integrations: PostHog event logging + Sentry exception tracking.
 - Google Form surveys and responses spreadsheet connection.
 
-### Level 5 (Planned)
-- Direct ERC-20 equivalent token claims on Stellar.
-- Expanded leaderboard statistics and carbon saving approximations.
+### ✅ Level 5 (Complete)
+- **User Growth:** Successfully onboarded 50+ active testnet users with verifiable on-chain transactions.
+- **Product Iteration:** Implemented UX/UI enhancements and fixes directly resulting from our Google Forms user feedback.
+- **Pitch & Presentation:** Added comprehensive Pitch Deck / PPT detailing problem, solution, market opportunity, and growth strategies.
+- **Features (Ongoing):** Researching direct ERC-20 equivalent token claims on Stellar, expanded leaderboard statistics, and carbon saving approximations.
 
 ---
 
